@@ -1,0 +1,48 @@
+﻿.row
+{
+    margin-bottom:10px
+}
+    .row .in .btnReg {
+        width: 100%;
+        font-size: 25px;
+        background-color: #ff3e00;
+        transition: all 0.2s ease-in-out;
+        border-radius: 30px
+    }
+        .row .in .btnReg:hover {
+            background-color: #000000;
+            color: #ff3e00
+        }
+        form {
+            margin: auto;
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 50px;
+            color: white;
+            box-shadow: 14px 0px 14px -2px #ff3e00,-14px 0px 14px -2px #ff3e00;
+            width: 100%
+        }
+.login .container
+{
+    margin-bottom:200px;
+}
+    .login .container h1 {
+        margin-bottom: 50px;
+    font-size: 60px;
+    color: #fbfbfb;
+    text-shadow: 16px 13px 22px #080808;
+}
+    
+.login {
+    height: 90vh;
+    background-image: url('imageForDesign/pexels-pixabay-235922.jpg');
+    background-position: center center;
+    background-size: cover;
+    position:relative
+}
+
+label {
+    color: #fbfbfb;
+    font-size: 27px;
+    font-weight: bold;
+}

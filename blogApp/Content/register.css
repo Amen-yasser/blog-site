@@ -1,0 +1,51 @@
+﻿.row
+{
+    margin-bottom:10px
+}
+.edet, .reg, .UpdateNews {
+    align-items: center;
+    background-image: url('imageForDesign/ezgif.com-gif-maker.jpg');
+    min-height: 85vh
+}
+    .edet .page-header,
+    .reg .page-header,
+    .UpdateNews .page-header {
+        color: #ff3e00;
+        font-weight: bold;
+        font-family: 'Agency FB';
+        font-size: 50px
+    }
+    .edet form,
+    .reg form,
+    .UpdateNews form {
+        background-color: transparent;
+        padding: 20px;
+        border-radius: 50px;
+        color: white;
+        box-shadow: 14px 0px 14px -2px #ff3e00,-14px 0px 14px -2px #ff3e00;
+        width: 100%;
+        margin-bottom: 20px
+    }
+        .ede form label,
+        .reg form label,
+        .UpdateNews form label {
+            font-size: 25px;
+            font-weight: bold
+        }
+.edet .row .in .btnEdet,
+.reg .row .in .btnReg,
+.UpdateNews .row .btnUpdate 
+{
+    width: 100%;
+    font-size: 25px;
+    background-color: #ff3e00;
+    transition: all 0.2s ease-in-out;
+    border-radius: 30px
+}
+.edet .row .in .btnEdet:hover,
+.reg .row .in .btnReg:hover,
+.UpdateNews .row  .btnUpdate:hover
+{
+    background-color: #000000;
+    color: #ff3e00
+}

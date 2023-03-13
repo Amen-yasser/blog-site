@@ -1,0 +1,65 @@
+﻿.profile {
+    background-color: #000000;
+    font-family: Arial Tahoma;
+}
+    .profile .container .card {
+       
+        box-shadow: 8px 0px 14px -2px #ff3e00;
+        padding: 20px;
+        margin-bottom: 50px;
+        border-radius: 50px;
+        color: #ffffff
+    }
+.title {
+    font-size: 50px;
+    color: #ff3e00;
+    letter-spacing:5px;
+    font-style:italic
+}
+.info h4
+{
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+    color:#c7c7c7
+}
+.photo img {
+    width: 80%;
+    height: 45vh;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 8px 0px 14px -2px #ff3e00;
+}
+
+body
+{
+    padding-bottom:0
+}
+.addnews 
+{
+    margin-top: 41px;
+}
+    .addnews a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #ff3e00;
+        text-align: center;
+        cursor: pointer;
+        color: #000000;
+        border-radius: 20px;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-weight: bold;
+        transition: all 0.2s ease-in-out;
+        display: block;
+        width: 40%;
+        margin-left: 28%;
+        font-weight:bold;
+        font-size:18px
+    }
+        .addnews a:hover {
+            background-color: #000000;
+            color: #ff3e00;
+            text-decoration: none;
+            border:1px solid #ffffff
+        }

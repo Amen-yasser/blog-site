@@ -1,0 +1,40 @@
+﻿@model List<news>
+@{
+    ViewBag.Title = "myNews";
+}
+@section styles
+{
+    <link href="~/Content/myNews.css" rel="stylesheet" />
+}
+
+<div class="myNews">
+    <div class="container ">
+        <h1 class="page-title page-header">My News</h1>
+        @foreach (var i in Model)
+        {
+            <div class="row news-card">
+                <h1 class="text-center title">@i.title</h1>
+                <div class="col-md-6">
+                    <div class="info">
+                       <p class="lead">@i.bref</p>
+                        <h3 class="lead">Aouther: @i.user.username</h3>
+                        <h3 class="lead">Catigory: @i.catalog.name</h3>
+                        <h5 class="lead date">@i.date</h5>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="photo text-center">
+                        <img class="img-responsive" src="~/Attach/imageNews/@i.photo" />
+                        <div class=" row options text-center">
+                            <span class="col-sm-4">@Html.ActionLink("Delete","delete",new { id=i.id})</span>
+                            <span class="col-sm-4">@Html.ActionLink("Update", "update",new { id=i.id})</span>
+                            <span class="col-sm-4">@Html.ActionLink("Read more...","details",new {id=i.id})</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>
+

@@ -1,0 +1,35 @@
+﻿@model user
+@{
+    ViewBag.Title = "profile";
+}
+@section styles
+{
+    <link href="~/Content/profile.css" rel="stylesheet" />
+}
+<div class="profile">
+    <div class="container ">
+        <h1 class="text-center title lead">Profile</h1>
+        <div class="row card ">
+            <div class="col-md-6">
+                <div class="info">
+                    <h4 class="lead">Name: @Model.username</h4>
+                    <h4 class="lead">E-mail: @Model.email</h4>
+                    <h4 class="lead">Adress: @Model.address</h4>
+                    <h4 class="lead">Age: @Model.age</h4>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="photo">
+                    <img src="~/Attach/@Model.photo" />
+                </div>
+            </div>
+                <div class="col-md-6 addnews text-center">
+                    @Html.ActionLink("Add News", "AddNews", "news")
+                </div>
+                <div class="col-md-6 addnews">
+                    @Html.ActionLink("Edit Profile", "editProfile",new { id=Model.id})
+                </div>
+    </div>
+</div>
+

@@ -1,0 +1,39 @@
+﻿.addnews {
+    background-image: url('imageForDesign/pexels-suzy-hazelwood-5010877.jpg');
+    min-height:85vh;
+    background-size:cover;
+    background-position:center center
+}
+    .addnews .page-header {
+        color: #ff3e00;
+        font-family:'Agency FB';
+        font-size:50px;
+        font-weight:bold;
+    }
+    .addnews form {
+        background-color: transparent;
+        padding: 20px;
+        border-radius: 50px;
+        color: white;
+        box-shadow: 14px 0px 14px -2px #ff3e00,-14px 0px 14px -2px #ff3e00;
+        width: 100%
+    }
+        .addnews form label
+        {
+            font-size:25px;
+            font-weight:bold
+        }
+        .row {
+            margin-bottom: 30px
+        }
+.btnAdd {
+    width: 100%;
+    font-size: 25px;
+    background-color: #ff3e00;
+    transition:all 0.2s ease-in-out;
+    border-radius:30px
+}
+    .btnAdd:hover {
+        background-color: #000000;
+        color: #ff3e00
+    }

@@ -1,0 +1,45 @@
+﻿.contact-us
+{
+    background-image: url('imageForDesign/Contact-us.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center  left;
+    min-height:85vh;
+    position:relative;
+}
+form
+{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    padding-top:150px
+}
+form .row
+{
+    margin-bottom:20px;
+}
+    form .row .label {
+        font-size: 18px;
+        color:#ffffff;
+        font-weight: bold;
+    }
+    form .row .send {
+        width: 100%;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: #ff3e00
+    }
+.contact-us p {
+    color: #ff3e00;
+    padding: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-shadow: 10px 10px 10px rgba(248, 66, 7, 0.96);
+}
+@media (max-width:320px)
+{
+    .contact-us p {
+        font-size: 15px;
+    }
+}

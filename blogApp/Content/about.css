@@ -1,0 +1,59 @@
+﻿.aboutUs
+{
+    display:flex;
+    height:auto
+}
+.aboutUs .side {
+    background-color: rgba(248, 66, 7, 0.96);
+    width: 30%;
+    min-height: 85vh;
+    position:relative
+}
+.aboutUs .side h1
+{
+    font-style:italic;
+    text-shadow:10px 10px 10px #000000;
+    position:absolute;
+    top:30%;
+    left:30%;
+    transform:translate(-30%,-30%);
+    color:#000000;
+    font-size:55px;
+    font-weight:bold;
+}
+.Info {
+    background-color: #000000;
+    min-height: 85vh;
+    width: 100%
+}
+.banner {
+    background-image: url('imageForDesign/ezgif.com-gif-maker.jpg');
+    background-size:cover;
+    height:400px;
+    background-position:center center;
+    position:relative;
+}
+    .banner h1 {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        font-style: italic;
+        text-shadow: 10px 10px 10px rgba(248, 66, 7, 0.96);
+        font-size: 55px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+.infoBoudy
+{
+    color:#ccc;
+    padding:20px
+}
+    .infoBoudy h1 {
+        font-style: italic;
+        text-shadow: 10px 10px 10px rgba(248, 66, 7, 0.96);
+        font-size: 55px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-bottom:20px
+    }

@@ -1,0 +1,78 @@
+﻿
+.myNews {
+    background-color: #000000;
+    padding:10px
+}
+.news-card {
+    box-shadow: 0px 1px 18px -4px #ff3e00;
+    padding: 40px;
+    margin-bottom: 70px;
+    border-radius: 50px;
+}
+.news-card .title {
+    margin: 30px;
+    font-size: 40px;
+    color: #ff3e00;
+    letter-spacing:5px
+}
+.news-card .info
+{
+    color:#ffffff
+}
+    .news-card .info h3 {
+        font-family: Aldhabi;
+        font-style: italic;
+        font-size:50px;
+        color:#6f6a6a
+    }
+.photo img {
+    border-radius: 50px;
+    width: 100%
+}
+.page-title {
+    font-size: 65px;
+    margin-bottom: 60px;
+    color: #ff3e00;
+    font-family: Aldhabi;
+    font-style: italic;
+    letter-spacing: 5px
+}
+.options {
+    margin-top: 30px;
+ 
+}
+.photo span a {
+    background-color: #ff3e00;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out
+}
+    .photo span a:hover {
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #ff3e00;
+    }
+.date{
+    font-size:18px;
+    font-style:italic;
+    font-family:cursive;
+    padding-top:40px
+}
+
+.bref, .Aouther, .Catigory {
+    color: #000000;
+    font-weight: bold;
+}
+.Aouther, .Catigory
+{
+    font-style:italic;
+    font-family:cursive
+}
+.photo-dateils
+{
+    margin-bottom:25px
+}

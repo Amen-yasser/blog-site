@@ -1,0 +1,50 @@
+﻿@model List<user>
+@{
+    ViewBag.Title = "admin";
+}
+@section styles
+{
+    <link href="~/Content/admin.css" rel="stylesheet" />
+}
+<h1 class="page-header text-center">@ViewBag.adminName</h1>
+<div class="adminPage">
+    <div class="container">
+        <h1 class="Users-Data">Users Data</h1>
+        <table class="table table-striped">
+            <tr>
+                <th> ID</th>
+                <th>Name</th>
+                <th>E-mail</th>
+                <th>Age</th>
+                <th>Adress</th>
+                <th>photo</th>
+                <th>Delete User</th>
+            </tr>
+            @foreach (var i in Model)
+            {
+                <tr>
+                    @if (i.username == "admin") { continue; }
+
+                    <td>@i.id</td>
+                    <td>@i.username</td>
+                    <td>@i.email</td>
+                    <td>@i.age</td>
+                    <td>@i.address</td>
+                    @if (i.photo == null)
+                    {
+                        <td>No Photo</td>
+                    }
+                    else
+                    {
+                        <td><img width="80" style="height:80px;" class="img-circle" src="~/Attach/@i.photo" /></td>
+
+                    }
+                    <td>@Html.ActionLink("Delete", "delete", new { id = @i.id }, new { @class = "btn btn-danger" })</td>
+
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+

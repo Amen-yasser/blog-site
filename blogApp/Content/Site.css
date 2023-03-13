@@ -1,0 +1,152 @@
+﻿*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    padding-top:50px
+}
+
+/* Set padding to keep content from hitting the edges */
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+
+.navbar-inverse .navbar-brand {
+color: dodgerblue;
+font-weight: bold;
+font-style: italic;
+font-size: 29px;
+}
+.navbar-inverse .navbar-brand a {
+    color: #ff3e00;
+    transition:all 0.2s ease-in-out
+}
+.navbar-inverse .navbar-brand a:hover {
+    text-decoration: none;
+    color:#fff;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: dodgerblue;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li {
+    color: #ff3e00;
+    font-size: 17px;
+    transition: all 0.2s ease-in-out
+}
+    .navbar-inverse .navbar-nav > li > a:hover {
+        background-color: #ff3e00;
+        color: #fff
+    }
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:focus {
+        background-color: #ff3e00;
+    }
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+.item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+
+.slide .carousel-caption {
+    top: 55%;
+    transform: translateY(-50%);
+    text-align: left;
+    right: 0;
+    left: 57%;
+    background-color: transparent;
+    box-shadow: 4px 4px 8px rgb(112, 111, 111), -4px -4px 8px rgb(112, 111, 111);
+    width: 30%;
+    padding: 3% 2%;
+    height: auto;
+    bottom: 0;
+    max-height: 20vh;
+    min-height: 40vh;
+    text-transform: uppercase;
+}
+
+    .slide .carousel-caption span {
+        font-size: 1.3vw;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .slide .carousel-caption h1 {
+        padding-bottom: 2%;
+        font-size: 3vw;
+    }
+
+.carousel-caption a {
+    border: none;
+    transition: .5s ease;
+    color: #080808;
+    background-color: #ff3e00;
+    font-weight: bold;
+}
+
+.slide .carousel-caption a:hover {
+    background-color: #080808;
+    color: #ff3e00;
+}
+
+.carousel-indicators li {
+    background-color: #ff3e00;
+    width:20px;
+    height:20px
+}
+
+
+.item strong {
+    color: #ff3e00;
+}
+hr {
+    margin: 0;
+    padding: 0
+}
+
+footer {
+    background-color: #080808;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0;
+    color: #ff3e00;
+    font-weight:bold;
+   
+}
+    footer .lead {
+        font-weight: bold;
+        font-size:25px
+    }
